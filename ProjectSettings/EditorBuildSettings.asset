@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 9723297ea4dffaa4ea54f2da73d985fe
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 09448fa2922f5bf41994e3f2bdc4fea7
+  - enabled: 1
+    path: Assets/Scenes/VegetaScene.unity
+    guid: 602cb8ad45ebbed46bde46ae3948d7eb
+  - enabled: 1
+    path: Assets/Scenes/GokuScene.unity
+    guid: dea96f9b585279f43a1966ce45434ac9
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 78b8ca5907fe5524d9723cbc6ae97f10
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: ffb9e95a13a82604da8e633885fb6c4b
+  m_configObjects: {}
