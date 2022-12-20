@@ -1954,6 +1954,10 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 3043714598135182018, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
+      propertyPath: m_Volume
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043714598135182018, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 1938286183c6a5a469ecd00de38fe14f, type: 3}
