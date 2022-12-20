@@ -97,7 +97,7 @@ public class MoverP1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == weakFireName) // Fire enter
+        if (other.tag == weakFireName || other.tag == "NeutralFire") // Fire enter
         {
 
             GameManager.inst.hitSound.Play();
@@ -168,6 +168,7 @@ public class MoverP1 : MonoBehaviour
     {
         // Step 1: spawn the new object.
         Vector3 positionOfSpawnedObject = transform.position;  // span at the containing object position.
+        positionOfSpawnedObject.z += 1f;
         Quaternion rotationOfSpawnedObject = Quaternion.identity;  // no rotation.
 
         GameObject newObject = Instantiate(powerFireObj, positionOfSpawnedObject, rotationOfSpawnedObject);

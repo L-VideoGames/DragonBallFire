@@ -14,6 +14,7 @@ TagManager:
   - PowerFireV
   - Song
   - Levels
+  - NeutralFire
   layers:
   - Default
   - TransparentFX

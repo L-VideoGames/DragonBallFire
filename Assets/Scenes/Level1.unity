@@ -1360,11 +1360,11 @@ PrefabInstance:
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: player1
       value: 
-      objectReference: {fileID: 621876798}
+      objectReference: {fileID: 729694609}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: player2
       value: 
-      objectReference: {fileID: 729694609}
+      objectReference: {fileID: 621876798}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: cameraListener
       value: 
@@ -1377,6 +1377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3043714598135182018, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 90383da54438d0748a1a82b0db7a23ab, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
 --- !u!1001 &6028569890915225986

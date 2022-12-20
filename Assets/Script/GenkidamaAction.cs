@@ -16,6 +16,6 @@ public class GenkidamaAction : MonoBehaviour
     {
         
         this.moveTo = direction * this.moveTo;
-        
+        this.rotate = direction * (-1) * this.rotate;
     }
 }

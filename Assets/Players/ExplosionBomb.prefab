@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3350560546128060813}
   - component: {fileID: 3350560546128060812}
   - component: {fileID: 3350560546128060851}
-  - component: {fileID: 3350560546128060814}
+  - component: {fileID: -4521359453443171787}
   m_Layer: 0
   m_Name: ExplosionBomb
   m_TagString: PowerFireV
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3350560546128060849}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.2, y: 0.1, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.67, y: 3.74}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,8 +98,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21875575, y: -0.060685534}
-  m_Size: {x: 3.4691505, y: 2.7613773}
+  m_Offset: {x: 0.025173664, y: -0.025174623}
+  m_Size: {x: 3.8496542, y: 3.8496542}
   m_Direction: 1
 --- !u!82 &3350560546128060851
 AudioSource:
@@ -197,7 +197,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3350560546128060814
+--- !u!114 &-4521359453443171787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,8 +206,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3350560546128060849}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b778909d36326948bb7f9d0593710f5, type: 3}
+  m_Script: {fileID: 11500000, guid: adb08c39b2aa4be4e8901e38294da42c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveTo: {x: 0, y: 0, z: -1}
-  rotate: 100
+  growthScaleRate: {x: 0.3, y: 0.3, z: 0}
+  rotate: 75
