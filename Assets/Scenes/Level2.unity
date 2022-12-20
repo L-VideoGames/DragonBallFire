@@ -218,11 +218,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565392, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.81
+      value: -23.7
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565392, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.97
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565392, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -266,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 1938974234}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: positionEnd.x
-      value: 32
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: positionEnd.y
@@ -274,11 +274,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: positionStart.x
-      value: -17
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: positionStart.y
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: destroyAfterTimerSpawn
@@ -286,7 +286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: timerSpawn.Array.data[0]
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: timerSpawn.Array.data[1]
@@ -573,7 +573,8 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 4.11469
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7456704737514543286, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
 --- !u!1001 &321922284
 PrefabInstance:
@@ -942,7 +943,8 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 2.8454123
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7456704737514543286, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
 --- !u!4 &971685599 stripped
 Transform:
@@ -1914,7 +1916,8 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -3.1500022
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7456704737514543286, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
 --- !u!1 &1861637553
 GameObject:
@@ -2105,7 +2108,8 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -3.8357277
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7456704737514543286, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
 --- !u!1001 &1956899842
 PrefabInstance:

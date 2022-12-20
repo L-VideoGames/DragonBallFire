@@ -323,7 +323,6 @@ GameObject:
   - component: {fileID: 627034960}
   - component: {fileID: 627034962}
   - component: {fileID: 627034961}
-  - component: {fileID: 627034963}
   m_Layer: 0
   m_Name: boxLine (2)
   m_TagString: Untagged
@@ -392,18 +391,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8, y: 1}
   m_EdgeRadius: 0
---- !u!114 &627034963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627034959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e91b49d3941a2d74390d4e72b629017f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &729694609 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2872883676170584704, guid: 2193b2c7cb20a2b41ac428a54a582d07, type: 3}
@@ -420,7 +407,6 @@ GameObject:
   - component: {fileID: 811259296}
   - component: {fileID: 811259298}
   - component: {fileID: 811259297}
-  - component: {fileID: 811259299}
   m_Layer: 0
   m_Name: boxLine (1)
   m_TagString: Untagged
@@ -489,18 +475,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8, y: 1}
   m_EdgeRadius: 0
---- !u!114 &811259299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811259295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e91b49d3941a2d74390d4e72b629017f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1025721020
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +578,6 @@ GameObject:
   - component: {fileID: 1075695216}
   - component: {fileID: 1075695218}
   - component: {fileID: 1075695217}
-  - component: {fileID: 1075695219}
   m_Layer: 0
   m_Name: boxLine (3)
   m_TagString: Untagged
@@ -673,18 +646,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1075695219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075695215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e91b49d3941a2d74390d4e72b629017f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &1278639884 stripped
 AudioListener:
   m_CorrespondingSourceObject: {fileID: 6028569892190973582, guid: 50bf322e55479074fa912acb54aea59b, type: 3}
@@ -1366,9 +1327,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 621876798}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
+      propertyPath: positionEnd.y
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: cameraListener
       value: 
       objectReference: {fileID: 1278639884}
+    - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
+      propertyPath: positionStart.x
+      value: -7
+      objectReference: {fileID: 0}
     - target: {fileID: 3043714596089565393, guid: 447d91269e0c7ec4e8398644cfb105c2, type: 3}
       propertyPath: destroyAfterTimerSpawn
       value: 1
@@ -1499,5 +1468,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7456704737514543286, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8edb6f4e32ec9e1459c342d8dc9a6e41, type: 3}
