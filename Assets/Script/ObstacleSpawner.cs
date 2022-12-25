@@ -8,7 +8,8 @@ public class ObstacleSpawner : MonoBehaviour
     [Tooltip("Minimum time between consecutive spawns, in seconds")] [SerializeField] float minTimeBetweenSpawns = 1f;
     [Tooltip("Maximum time between consecutive spawns, in seconds")] [SerializeField] float maxTimeBetweenSpawns = 3f;
     [Tooltip("Maximum distance in X between spawner and spawned objects, in meters")] [SerializeField] float maxXDistance = 33f;
-    [SerializeField] protected GameObject obstacleToSpawn;
+    [SerializeField] protected GameObject[] obstacleToSpawn;
+    [SerializeField] protected float timerToDestroy;
     void Start()
     {
         this.StartCoroutine(SpawnRoutine());
@@ -24,7 +25,8 @@ public class ObstacleSpawner : MonoBehaviour
                 transform.position.x + Random.Range(-maxXDistance, +maxXDistance),
                 transform.position.y,
                 transform.position.z);
-            GameObject newObject = Instantiate(obstacleToSpawn, positionOfSpawnedObject, Quaternion.identity);
+            int randObjNum = (int)Random.Range(0, obstacleToSpawn.Length);
+            GameObject newObject = Instantiate(obstacleToSpawn[randObjNum], positionOfSpawnedObject, Quaternion.identity);
             newObject.GetComponent<GenkidamaAction>();
             
             
@@ -34,7 +36,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     private IEnumerator destroyAfter(GameObject newObject)
     {
-        yield return new WaitForSeconds(11.0f);
+        yield return new WaitForSeconds(timerToDestroy);
         Destroy(newObject);
 
     }

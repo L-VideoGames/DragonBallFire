@@ -135,7 +135,7 @@ public class MoverP1 : MonoBehaviour
         {
             GameManager.inst.powerUpSound.Play();
             Destroy(other.gameObject);
-            StartCoroutine(afterPowerUp(10f));
+            StartCoroutine(afterPowerUp(15F));
 
         }
     }
