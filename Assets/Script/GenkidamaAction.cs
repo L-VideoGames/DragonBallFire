@@ -8,6 +8,7 @@ public class GenkidamaAction : MonoBehaviour
     [SerializeField] private int rotate;
     void Update()
     {
+        
         transform.position += moveTo * Time.deltaTime;
         transform.Rotate(new Vector3(0, 0, rotate) * Time.deltaTime);
     }

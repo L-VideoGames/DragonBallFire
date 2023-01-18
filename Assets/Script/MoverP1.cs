@@ -41,7 +41,7 @@ public class MoverP1 : MonoBehaviour
             if (x > 0) { this.powerUpSpriteRenderer.flipX = false; }
             Vector3 movementVector = new Vector3(x, y, 0) * (speed+2) * Time.deltaTime;
             transform.position += movementVector;
-
+            
             if (Input.GetKeyDown(this.PowerKey))
             {
                 if (this.powerUpSpriteRenderer.flipX)
